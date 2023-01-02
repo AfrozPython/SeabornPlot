@@ -22,7 +22,7 @@ selected_y_var = st.selectbox('What about the y?',
 
 # Import Data
 st.title("Iris flower Classifier") 
-Iris = pd.read_csv('C:/Users/Appu/Desktop/Streamlit Test/Iris.csv')
+Iris = pd.read_csv('Iris.csv')
 
 sns.set_style('darkgrid')
 markers = {"Iris-setosa": "X", "Iris-versicolor": "s", "Iris-virginica":'o'}
